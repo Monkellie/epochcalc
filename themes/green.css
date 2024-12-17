@@ -1,0 +1,31 @@
+
+            QWidget {
+                background-color: #c8e6c9;
+                color: #388e3c;
+            }
+            QPushButton {
+                background-color: #81c784;
+                border: 1px solid #66bb6a;
+                color: #388e3c;
+            }
+            QPushButton:hover {
+                background-color: #66bb6a;
+            }
+            QTabWidget::pane {
+                border: 1px solid #81c784;
+                background-color: #a5d6a7;
+            }
+            QTabWidget::tab-bar {
+                alignment: center;
+            }
+            QTabWidget::tab {
+                background-color: #a5d6a7;
+                padding: 5px;
+                border: 1px solid #81c784;
+                margin-right: 5px;
+            }
+            QTabWidget::tab:selected {
+                background-color: #81c784;
+                border: 1px solid #388e3c;
+            }
+        
